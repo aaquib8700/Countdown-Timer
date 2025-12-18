@@ -1,16 +1,44 @@
-# React + Vite
+# ⏳ Countdown Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly **Countdown Timer** built using **HTML, CSS, and JavaScript**.
+This project allows users to set a specific time and see the countdown update in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+* Set custom countdown duration
+* Real-time countdown display
+* Automatically stops when time reaches zero
+* Start, pause, and reset functionality *(if implemented)*
+* Clean and responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **HTML** – Structure of the timer
+* **CSS** – Styling and layout
+* **JavaScript** – Countdown logic using `setInterval`
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository
+
+   ```bash
+   git clone <your-repo-link>
+   ```
+2. Navigate to the project folder
+
+   ```bash
+   cd countdown-timer
+   ```
+3. Open `index.html` in your browser
+4. Set the timer and start the countdown ⏱️
+
+---
+
+
+### ⭐ If you like this project, don’t forget to star the repository!
